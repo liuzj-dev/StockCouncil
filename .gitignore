@@ -1,0 +1,32 @@
+# ---------- 本地密钥（绝对不要提交）----------
+.env
+.env.local
+.env.*.local
+*.key
+secrets.json
+
+# ---------- 运行期数据（服务启动时自动生成）----------
+data/*.json
+data/*.log
+!data/.gitkeep
+
+# ---------- Node ----------
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ---------- 编辑器 / 系统 ----------
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---------- 临时文件 ----------
+*.tmp
+*.bak
+tmp/
+dist/
